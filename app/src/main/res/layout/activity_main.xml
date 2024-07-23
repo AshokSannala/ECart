@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#C1EF93"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to ECartApp"
+        android:textColor="#03685D"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Here"
+        android:textColor="#0574AB"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/etUname"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your User Name"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your  Password"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/etConfPwd"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Your Password"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/btnregister"
+        android:textStyle="bold"
+        android:backgroundTint="#5EDC6E"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Register"
+        android:layout_gravity="center"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/tvAlreadyAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#E80D0D"
+        android:textStyle="bold"
+        android:text="Already hava an Account,Go to Login"/>
+
+
+</LinearLayout>
