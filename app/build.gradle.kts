@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+
 }
 
 android {
@@ -50,5 +51,8 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.core.ktx)
     implementation ("com.squareup.picasso:picasso:2.8")
+    implementation ("androidx.core:core-ktx:1.6.0")
+    implementation ("com.google.android.material:material:1.4.0")
+    implementation ("androidx.room:room-runtime:2.3.0")
 
 }
